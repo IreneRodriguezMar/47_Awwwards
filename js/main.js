@@ -5,7 +5,7 @@ $(document).ready(function(){
   });
   $('#modal1').modal('open');
   $('#modal1').modal('close');
-  
+  //sideNav
 $(document).ready(function(){
   $('.tooltipped').tooltip({delay: 50});
 });
