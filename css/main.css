@@ -1,0 +1,109 @@
+.mg-tp {
+  margin-top: 5%; }
+
+.block {
+  display: block; }
+
+.btnmod {
+  margin-left: 170px;
+  margin-top: 5%;
+  width: 50%;
+  height: 50px; }
+
+.imgmari {
+  background-image: url(../img/mari.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 570px; }
+
+.fotoperrito {
+  background-image: url(../img/perrito.jpg);
+  border-radius: 50%;
+  width: 3%;
+  height: 40px;
+  margin: 1%; }
+
+.borderwhite {
+  border: white solid 1px;
+  width: 3%;
+  height: 40px; }
+
+.inline {
+  display: inline-block; }
+
+.veintiseis {
+  margin-top: 2%;
+  margin-right: 1%; }
+
+.veintiseis:hover {
+  color: grey; }
+
+.hovermas:hover {
+  color: #42AB9E; }
+
+.link {
+  color: white;
+  font-size: 25px;
+  margin-top: 1%; }
+
+.perrito {
+  width: 30%;
+  height: 30px; }
+
+.phover:hover {
+  color: red;
+    color-width: 30%;
+    color-width: 50px; }
+
+.fntz {
+  font-size: 30px;
+  margin-top: 10%; }
+
+div#imguno {
+  width: 427.16px;
+  height: 305.23px;
+  background-image: url(../img/uno.jpg); }
+
+div#imgdos {
+  width: 427.16px;
+  height: 305.23px;
+  background-image: url(../img/dos.jpg); }
+
+div#imgtres {
+  width: 427.16px;
+  height: 305.23px;
+  background-image: url(../img/tres.jpg); }
+
+div#info {
+  position: absolute;
+  width: 427.16px;
+  height: 305.23px;
+  background-color: rgba(31, 31, 31, 0.9);
+  -webkit-transition: opacity 0.5;
+  opacity: 0; }
+
+div#imguno:hover div#info {
+  opacity: 1; }
+
+div#imgdos:hover div#info {
+  opacity: 1; }
+
+div#imgtres:hover div#info {
+  opacity: 1; }
+
+div#daysredes {
+  position: absolute; }
+
+.dias {
+  margin: 0px !important; }
+
+.btnvote {
+  margin-top: 50%; }
+
+.caja {
+  width: 80% !important;
+  height: 30px !important;
+  margin-left: 30px !important; }
+
+.icofb {
+  margin-left: 20px !important; }

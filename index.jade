@@ -1,0 +1,348 @@
+doctype html5
+html(lang="es")
+	head
+		title Awwwards
+		meta(charset="utf-8")
+		meta(name="viewport", content="width=device-width, initial-scale=1.0")
+		meta(name="description", content="")
+		meta(name="author", content="")
+		link(rel="stylesheet", href="css/materialize.min.css")
+		link(rel="stylesheet", href="css/materialize.css")
+		link(rel="stylesheet", href="css/font-awesome.min.css")
+		link(rel="stylesheet", href="css/main.css")
+		link(rel="stylesheet", href="css/percircle.css")
+		link(rel="stylesheet", href="css/percircle-rtl.css")
+		link(rel="stylesheet", href="https://fonts.googleapis.com/icon?family=Material+Icons")
+		link(rel="stylesheet", href="https://fonts.googleapis.com/css?family=Raleway:400,300,600,800,900",  type="text/css")
+	body
+		header
+			div
+				nav.grey.lighten-4
+					div.nav-wrapper
+						a(href="#!", data-activates="slide-out").button-collapse.show-on-large.black-text
+							i.material-icons menu MENU
+						ul.right.hide-on-med-and-down
+							li.left
+								form
+									div.input-field.navbar-fixed
+										input#search(type="search")
+										label(for="search")
+											i.material-icons search
+										i.material-icons close	
+							li
+								h4.black-text AWWWARDS
+							li.black-text ARE YOU MEMBER? 
+							li
+								a(href="#modal1").black-text REGISTRER / LOGIN
+							li
+								a(href="#modal1").waves-effect.waves-light.btn SUBMIT YOUR SITE!	
+						ul#slide-out.side-nav
+							li.black-text
+								a(href="#!") BACK
+							li
+								a(href="#home") Home
+							li
+								a(href="#winners") Winners
+							li
+								a(href="#nominees") Nominees
+							li
+								a(href="#collections") Collections
+							li
+								a(href="#professional") Professional DIrectory
+							li
+								a(href="#jobs") Jobs
+							li
+								a(href="#magazine") Magazine
+							li
+								a(href="#about") About US
+<!--modal uno-->
+		section
+			div.modal#modal1
+				div.modal-content
+					h4.center Log in with your account
+					a.waves-effect.waves-light.btn.light-blue.lighten-1.block.btnmod(href="www.twitter.com") Connect whit Twitter
+					a.waves-effect.waves-light.btn.light-blue.darken-4.block.btnmod(href="www.facebook.com") Connect whit facebook
+					a.waves-effect.waves-light.btn.teal.accent-4.block.btnmod(href="#modal2") Login in with your e-mail
+				div.modal-footer
+				a(href="#!").modal-action.modal-close.waves-effect.waves-green.btn-flat Agree
+<!--modal dos para email-->
+		section
+			div#modal2.modal
+				div.modal-content
+					h4.center Login with your e-mail
+					div.row
+						div.input-field.col.s12
+							input#password(type="password").validate
+							label(for="password") Password
+					div.row
+						div.input-field.col.s12
+							input#email(type="email").validate
+							label(for="email") E-mail
+					div.row
+						div.col.s12
+							form(action="#")
+								p
+									input(type="checkbox", checked="checked").filled-in#filled-in-box
+									label(for="filled-in-box") Keep me logged in
+					div.row
+						div.col.s12
+							a.waves-effect.waves-light.btn.btnmod LOGIN NOW!
+					div.row
+						div.col.s12
+							a(href="contraseña.html").mg-lf.teal-text Forgot your password?
+					div.row
+						div.col.s12
+							p Not a member yet? 
+								a(href="#!") Register now
+				div.modal-footer
+				a(href="#!").modal-action.modal-close.waves-effect.waves-green.btn-flat Agree
+		section.imgmari.hide-on-small-only#home
+			div.row
+				div.col.hide-on-small-only.m12.l12.white-text.center.mg-tp
+					p.inline.left Site of the Day / Dec 15, 2016
+					a.tooltipped.link.circle.borderwhite.inline.right.hovermas(data-position="top", data-delay="50", data-tooltip="Add to Collections!") +
+					p.inline.right.veintiseis +26
+					a.dropdown-button.fotoperrito.inline.right.avatar(href='#', data-activates='dropdown1')
+					div#dropdown1.dropdown-content
+						img(src="img/perrito.jpg", alt="").perrito
+						p.black-text Laila
+						p.black-text spain
+					a.dropdown-button.fotoperrito.inline.right.avatar(href='#', data-activates='dropdown2')
+					div#dropdown2.dropdown-content
+						img(src="img/perrito.jpg", alt="").perrito
+						p.black-text Laila
+						p.black-text spain
+					a.dropdown-button.fotoperrito.inline.right.avatar(href='#', data-activates='dropdown3')
+					div#dropdown3.dropdown-content
+						img(src="img/perrito.jpg", alt="").perrito
+						p.black-text Laila
+						p.black-text spain
+					a.dropdown-button.fotoperrito.inline.right.avatar(href='#', data-activates='dropdown4')
+					div#dropdown4.dropdown-content
+						img(src="img/perrito.jpg", alt="").perrito
+						p.black-text Laila
+						p.black-text spain
+				div.col.hide-on-small-only.m12.l12.white-text.center
+					h2 HP Sound in color
+					p BY 
+						span.teal-text RESN
+						span.white-text  FROM strong NETHERLANDS WITH 
+					div.row
+						div.col.hide-on-small-only.m3.l3
+							div.percircle.gt50
+								span 94%
+								div.slice
+									div.bar(style="transform: rotate(338.4deg);")
+									div.fill
+						div.col.hide-on-small-only.m3.l3
+							div.percircle.gt50
+								span 94%
+								div.slice
+									div.bar(style="transform: rotate(338.4deg);")
+									div.fill
+						div.col.hide-on-small-only.m3.l3
+							div.percircle.gt50
+								span 94%
+								div.slice
+									div.bar(style="transform: rotate(338.4deg);")
+									div.fill
+						div.col.hide-on-small-only.m3.l3
+							div.percircle.gt50
+								span 94%
+								div.slice
+									div.bar(style="transform: rotate(338.4deg);")
+									div.fill
+		section#winners.hide-on-large-only.hide-on-med-only
+			div.container-fluid
+				div.row
+					div.col.s12
+						img.materialboxed.responsive-img(width="650", src="img/winner.jpg")
+						h4.black-text Heco Partners
+						p.black-text BY
+							span.teal-text HECO
+							span.black-text FROM U.S.A WITH 7.03
+						P.black-text Dec 16, 2016
+					
+						a.dropdown-button.fotoperrito.inline.avatar(href='#', data-activates='dropdown1')
+						div#dropdown1.dropdown-content
+							img(src="img/perrito.jpg", alt="").phover
+							p.black-text Laila
+							p.black-text spain
+						a.dropdown-button.fotoperrito.inline.avatar(href='#', data-activates='dropdown1')
+						div#dropdown1.dropdown-content
+							img(src="img/perrito.jpg", alt="").phover
+							p.black-text Laila
+							p.black-text spain
+						a.dropdown-button.fotoperrito.inline.avatar(href='#', data-activates='dropdown1')
+						div#dropdown1.dropdown-content
+							img(src="img/perrito.jpg", alt="").phover
+							p.black-text Laila
+							p.black-text spain
+						a.dropdown-button.fotoperrito.inline.avatar(href='#', data-activates='dropdown1')
+						div#dropdown1.dropdown-content
+							img(src="img/perrito.jpg", alt="").phover
+							p.black-text Laila
+							p.black-text spain
+						p.inline.veintiseis +26
+		section#nominees
+			div.container-fluid
+				div.row
+					div.col.s6.m6.l6
+						h4 Latest Nominees We need your vote!
+					div.col.s6.m6.l6
+						a(href="#!") Featured
+						a(href="#!") Recent
+				div.row
+					div.col.s12.m4.l4
+						div.card
+							div.card-image.img-responsive#imguno
+								div#info
+									div#daysredes.row
+										div.col.s4.m4.l4
+											ul.white-text.dias
+												li 
+													p 04
+													p 
+													small days
+												li 
+													p 18
+													p 
+													small HOURS
+												li 
+													p 57
+													p 
+													samll MIN.
+										div.col.s4.m4.l4.btnvote
+											a.waves-effect.waves-light.btn.white.black-text VOTE_NOW!
+										div.col.s4.m4.l4
+											ul
+												li
+													a(href="www.facebook").caja
+														i.fa.fa-facebook.fa-lg.white-text.right.blue.darken-1.icofb(aria-hidden="true")
+									
+							div.card-content
+								h6 Praticca
+								p.black-text By
+									span.teal-text follow55
+									span.black-text from Brazil
+								p December 13, 2016 in Nominees
+								a.dropdown-button.fotoperrito.inline.avatar(href='#', data-activates='dropdown1')
+								div#dropdown1.dropdown-content
+									img(src="img/perrito.jpg", alt="").perrito
+									p.black-text Laila
+									p.black-text spain
+								a.dropdown-button.fotoperrito.inline.avatar(href='#', data-activates='dropdown1')
+								div#dropdown1.dropdown-content
+									img(src="img/perrito.jpg", alt="").perrito
+									p.black-text Laila
+									p.black-text spain
+								a.dropdown-button.fotoperrito.inline.avatar(href='#', data-activates='dropdown1')
+								div#dropdown1.dropdown-content
+									img(src="img/perrito.jpg", alt="").perrito
+									p.black-text Laila
+									p.black-text spain
+								p.inline.veintiseis +5
+					div.col.s12.m4.l4.marginTop
+						div.card
+							div.card-image.img-responsive#imgdos
+								div#info
+									div#daysredes.row
+										div.col.s4.m4.l4
+											ul.white-text.dias
+												li 
+													p 04
+													p 
+													small days
+												li 
+													p 18
+													p 
+													small HOURS
+												li 
+													p 57
+													p 
+													samll MIN.
+										div.col.s4.m4.l4.btnvote
+											a.waves-effect.waves-light.btn.white.black-text VOTE_NOW!
+										div.col.s4.m4.l4
+											ul
+												li
+													a(href="www.facebook").caja
+														i.fa.fa-facebook.fa-lg.white-text.right.blue.darken-1.icofb(aria-hidden="true")
+							div.card-content
+								h6 Window Wonderland
+								p.black-text By
+									span.teal-text  Grow, Google Art Copy & Code
+									span.black-text from U.S.A.
+								p December 15, 2016 in Nominees
+								a.dropdown-button.fotoperrito.inline.avatar(href='#', data-activates='dropdown1')
+								div#dropdown1.dropdown-content
+									img(src="img/perrito.jpg", alt="").perrito
+									p.black-text Laila
+									p.black-text spain
+								a.dropdown-button.fotoperrito.inline.avatar(href='#', data-activates='dropdown1')
+								div#dropdown1.dropdown-content
+									img(src="img/perrito.jpg", alt="").perrito
+									p.black-text Laila
+									p.black-text spain
+								a.dropdown-button.fotoperrito.inline.avatar(href='#', data-activates='dropdown1')
+								div#dropdown1.dropdown-content
+									img(src="img/perrito.jpg", alt="").perrito
+									p.black-text Laila
+									p.black-text spain
+								p.inline.veintiseis +5
+					div.col.s12.m4.l4.marginTop
+						div.card
+							div.card-image.img-responsive#imgtres
+								div#info
+									div#daysredes.row
+										div.col.s4.m4.l4
+											ul.white-text.dias
+												li 
+													p 04
+													p 
+													small days
+												li 
+													p 18
+													p 
+													small HOURS
+												li 
+													p 57
+													p 
+													samll MIN.
+										div.col.s4.m4.l4.btnvote
+											a.waves-effect.waves-light.btn.white.black-text VOTE_NOW!
+										div.col.s4.m4.l4
+											ul
+												li
+													a(href="www.facebook").caja
+														i.fa.fa-facebook.fa-lg.white-text.right.blue.darken-1.icofb(aria-hidden="true")
+							div.card-content
+								h6 Moment Factory
+								p.black-text By
+									span.teal-text  Moment Factory - KFFEIN
+									span.black-text from Canadad
+								p December 14, 2016 in Nominees
+								a.dropdown-button.fotoperrito.inline.avatar(href='#', data-activates='dropdown1')
+								div#dropdown1.dropdown-content
+									img(src="img/perrito.jpg", alt="").perrito
+									p.black-text Laila
+									p.black-text spain
+								a.dropdown-button.fotoperrito.inline.avatar(href='#', data-activates='dropdown1')
+								div#dropdown1.dropdown-content
+									img(src="img/perrito.jpg", alt="").perrito
+									p.black-text Laila
+									p.black-text spain
+								a.dropdown-button.fotoperrito.inline.avatar(href='#', data-activates='dropdown1')
+								div#dropdown1.dropdown-content
+									img(src="img/perrito.jpg", alt="").perrito
+									p.black-text Laila
+									p.black-text spain
+								p.inline.veintiseis
+		script(src="js/jquery.js")
+		script(src="js/materialize.min.js")
+		script(src="js/materialize.js")
+		script(src="js/main.js")
+		script(src="https://use.fontawesome.com/6013be0e09.js")
+		script(src="//code.jquery.com/jquery-2.1.4.min.js")
+		script(src="js/percircle.js")
+		script(src="https://use.fontawesome.com/6013be0e09.js")
